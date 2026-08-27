@@ -101,13 +101,25 @@ internal class Program
     // What is the interface constraint? Write an example.
 
     // => The interface constraint ensures that the generic type T implements a specific interface
-    public class ResourceHandler<T> where T : IDisposable
-    {
-        public void CleanUp(T resource)
-        {
-            resource.Dispose();
-        }
-    }
+    //public class ResourceHandler<T> where T : IDisposable
+    //{
+    //    public void CleanUp(T resource)
+    //    {
+    //        resource.Dispose();
+    //    }
+    //}
+    #endregion
+
+    #region Question11
+    // What is the base class constraint? Write an example.
+
+    // => The base class constraint ensures that the generic type T inherits from a specific base class.
+    //public class Animal { }
+    //public class Dog : Animal { }
+    //public class AnimalHospital<T> where T : Animal
+    //{
+    //    public void Admit(T animal) { }
+    //}
     #endregion
 
     static void Main(string[] args)
