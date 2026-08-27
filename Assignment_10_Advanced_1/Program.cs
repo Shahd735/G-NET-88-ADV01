@@ -122,6 +122,18 @@ internal class Program
     //}
     #endregion
 
+    #region Question12
+    // How do you apply multiple constraints? Write an example. 
+
+    //public class Repository<T> where T : class, new()
+    //{
+    //    public T CreateAndGet()
+    //    {
+    //        return new T();
+    //    }
+    //}
+    #endregion
+
     static void Main(string[] args)
     {
         #region Question1
