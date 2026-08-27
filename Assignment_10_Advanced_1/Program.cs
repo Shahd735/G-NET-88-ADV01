@@ -53,6 +53,17 @@ internal class Program
     //}
     #endregion
 
+    #region Question6
+    // What is a generic interface? Write IRepository<T>. 
+
+    // => An interface that defines operations for a generic data type.
+    //public interface IRepository<T>
+    //{
+    //    void Add(T item);
+    //    T GetById(int id);
+    //}
+    #endregion
+
     static void Main(string[] args)
     {
         #region Question1
