@@ -97,6 +97,19 @@ internal class Program
     //}
     #endregion
 
+    #region Question10
+    // What is the interface constraint? Write an example.
+
+    // => The interface constraint ensures that the generic type T implements a specific interface
+    public class ResourceHandler<T> where T : IDisposable
+    {
+        public void CleanUp(T resource)
+        {
+            resource.Dispose();
+        }
+    }
+    #endregion
+
     static void Main(string[] args)
     {
         #region Question1
