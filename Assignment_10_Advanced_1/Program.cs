@@ -32,6 +32,18 @@ internal class Program
     //}
     #endregion
 
+    #region Question4
+    // What is a generic method? Write Swap<T> method.
+
+    // => A generic method is a method declared with its own type parameters
+    //public void Swap<T>(ref T a, ref T b)
+    //{
+    //    T temp = a;
+    //    a = b;
+    //    b = temp;
+    //}
+    #endregion
+
     static void Main(string[] args)
     {
         #region Question1
