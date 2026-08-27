@@ -44,6 +44,15 @@ internal class Program
     //}
     #endregion
 
+    #region Question5
+    // Write a generic method FindMax<T> that finds maximum value
+
+    //public T FindMax<T>(T a, T b) where T : IComparable<T>
+    //{
+    //    return a.CompareTo(b) > 0 ? a : b;
+    //}
+    #endregion
+
     static void Main(string[] args)
     {
         #region Question1
