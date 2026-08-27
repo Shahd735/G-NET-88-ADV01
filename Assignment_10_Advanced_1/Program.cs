@@ -21,6 +21,17 @@ internal class Program
 
     #endregion
 
+    #region Question3
+    // What are multiple type parameters? Write Pair<TKey, TValue>.
+
+    // => Multiple type parameters allow a generic class to accept more than one variable type, separated by commas.
+    //public class Pair<TKey, TValue>
+    //{
+    //    public TKey Key { get; set; }
+    //    public TValue Value { get; set; }
+    //}
+    #endregion
+
     static void Main(string[] args)
     {
         #region Question1
