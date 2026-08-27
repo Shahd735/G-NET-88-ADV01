@@ -64,6 +64,16 @@ internal class Program
     //}
     #endregion
 
+    #region Question7
+    // What is the 'struct' constraint? Write an example.
+
+    // => The struct constraint restricts the generic type T to be a value type
+    //public class DataProcessor<T> where T : struct
+    //{
+    //    public T Value { get; set; }
+    //}
+    #endregion
+
     static void Main(string[] args)
     {
         #region Question1
