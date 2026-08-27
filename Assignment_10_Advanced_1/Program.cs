@@ -84,6 +84,19 @@ internal class Program
     //}
     #endregion
 
+    #region Question9
+    // What is the 'new()' constraint? Write an example.
+
+    // => Ensures that the generic type T has a public parameterless constructor.
+    //public class Factory<T> where T : new()
+    //{
+    //    public T CreateInstance()
+    //    {
+    //        return new T();
+    //    }
+    //}
+    #endregion
+
     static void Main(string[] args)
     {
         #region Question1
