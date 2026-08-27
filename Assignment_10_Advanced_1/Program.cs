@@ -74,6 +74,16 @@ internal class Program
     //}
     #endregion
 
+    #region Question8
+    // What is the 'class' constraint? Write an example.
+
+    // => The class constraint restricts the generic type T to be a reference type
+    //public class ObjectManager<T> where T : class
+    //{
+    //    public T ManagedObject { get; set; }
+    //}
+    #endregion
+
     static void Main(string[] args)
     {
         #region Question1
